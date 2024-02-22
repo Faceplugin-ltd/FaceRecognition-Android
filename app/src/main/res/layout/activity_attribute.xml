@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Face Attribute"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFace"
+        android:foregroundGravity = "center"
+        android:layout_marginTop="16dp"
+        android:layout_width = "200dp"
+        android:layout_height = "200dp"
+        android:layout_gravity="center_horizontal"
+        app:cardElevation = "16dp"
+        app:cardCornerRadius = "100dp">
+
+        <ImageView
+            android:id="@+id/imageFace"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType = "centerCrop"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtLiveness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtQuality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtLuminance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtAngles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtOcclusion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtEyeClosed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtMouthOpened"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liveness score: 0.83"
+                android:textSize="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                >
+            </TextView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

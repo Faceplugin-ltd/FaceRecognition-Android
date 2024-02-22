@@ -1,0 +1,9 @@
+Face Data Collection and Use
+
+Our app collects a liveness detection template of your face when you use certain features. This data is used to calculate the liveness score of your face, which determines whether it is a real or spoofed face.
+
+We use this data solely for the purpose of providing you with a secure and accurate authentication process. We do not use this data for any other purposes, and we do not share it with any third parties.
+
+The face data is not stored or retained by our app in any way. It is only stored in memory for the duration of the liveness detection process, and is immediately discarded once the process is complete.
+
+We take the security and privacy of your face data seriously and use industry-standard security measures to protect it from unauthorized access, disclosure, alteration, or destruction
