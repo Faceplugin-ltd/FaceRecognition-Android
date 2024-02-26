@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute;
+package com.faceplugin.facerecognition;
 
 import android.content.ContentValues;
 import android.content.Context;

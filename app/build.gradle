@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.faceplugin.faceattribute'
+    namespace 'com.faceplugin.facerecognition'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.faceplugin.faceattribute"
+        applicationId "com.faceplugin.facerecognition"
         minSdk 24
         targetSdk 33
         versionCode 2
@@ -58,4 +58,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.royrodriguez:transitionbutton:0.2.0'
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
 }

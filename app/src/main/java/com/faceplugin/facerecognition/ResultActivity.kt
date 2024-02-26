@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute
+package com.faceplugin.facerecognition
 
 import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity

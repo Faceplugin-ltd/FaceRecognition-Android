@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute
+package com.faceplugin.facerecognition
 
 import android.content.Intent
 import android.content.pm.ResolveInfo

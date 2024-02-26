@@ -19,6 +19,10 @@
             android:name=".AttributeActivity"
             android:exported="false" />
         <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".ResultActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -44,7 +48,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute;
+package com.faceplugin.facerecognition;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -11,7 +11,6 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import com.faceplugin.faceattribute.SettingsActivity;
 import com.ocp.facesdk.FaceBox;
 
 import java.util.List;

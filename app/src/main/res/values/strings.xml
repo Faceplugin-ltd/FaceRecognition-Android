@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FaceAttribute</string>
+    <string name="app_name">Face Recognition</string>
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="settings">Settings</string>
 

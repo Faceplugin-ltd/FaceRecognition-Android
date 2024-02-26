@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute;
+package com.faceplugin.facerecognition;
 
 
 import static androidx.camera.core.ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST;
@@ -6,17 +6,13 @@ import static androidx.camera.core.ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.RectF;
 import android.media.Image;
 import android.os.Bundle;
-import android.text.Layout;
-import android.util.Log;
 import android.util.Size;
 import android.view.View;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 

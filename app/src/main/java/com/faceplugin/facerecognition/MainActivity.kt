@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute
+package com.faceplugin.facerecognition
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import com.faceplugin.faceattribute.SettingsActivity
 import com.ocp.facesdk.FaceBox
 import com.ocp.facesdk.FaceDetectionParam
 import com.ocp.facesdk.FaceSDK

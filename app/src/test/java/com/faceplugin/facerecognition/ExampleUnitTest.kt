@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute
+package com.faceplugin.facerecognition
 
 import org.junit.Test
 

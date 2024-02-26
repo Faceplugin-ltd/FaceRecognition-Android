@@ -1,11 +1,10 @@
-package com.faceplugin.faceattribute;
+package com.faceplugin.facerecognition;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
-import android.graphics.Rect;
 import android.net.Uri;
 import android.provider.MediaStore;
 

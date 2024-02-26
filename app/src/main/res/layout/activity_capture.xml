@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <com.faceplugin.faceattribute.CaptureView
+    <com.faceplugin.facerecognition.CaptureView
         android:id="@+id/captureView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,7 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-    </com.faceplugin.faceattribute.CaptureView>
+    </com.faceplugin.facerecognition.CaptureView>
 
     <TextView
         android:id="@+id/textTitle"

@@ -1,4 +1,4 @@
-package com.faceplugin.faceattribute;
+package com.faceplugin.facerecognition;
 
 
 import static androidx.camera.core.ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST;
@@ -11,10 +11,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.media.Image;
 import android.os.Bundle;
-import android.util.Log;
 import android.util.Size;
-import android.view.View;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,8 +26,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.google.common.util.concurrent.ListenableFuture;
-import com.faceplugin.faceattribute.ResultActivity;
-import com.faceplugin.faceattribute.SettingsActivity;
 import com.ocp.facesdk.FaceBox;
 import com.ocp.facesdk.FaceDetectionParam;
 import com.ocp.facesdk.FaceSDK;
