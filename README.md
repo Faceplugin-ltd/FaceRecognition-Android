@@ -12,9 +12,17 @@
 
 <details open>
 <summary><h2>Install License</h2></summary>
+  
+The code below shows how to use the license: https://github.com/Faceplugin-ltd/FacePlugin-FaceSDK-Android/blob/a33ee712da8e8bdf1572459bee417e6c83789ad1/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
 
-<img alt="" src="https://github.com/Faceplugin-ltd/FacePlugin-FaceSDK-Android/assets/160750757/8e94d641-7faf-4b86-9fd0-428f993f6a20.png"/>
+If you want to get license, please contact us
 
+<div align="left">
+<a target="_blank" href="mailto:info@faceplugin.com"><img src="https://img.shields.io/badge/email-info@faceplugin.com-blue.svg?logo=gmail " alt="faceplugin.com"></a>&emsp;
+<a target="_blank" href="https://t.me/faceplugin"><img src="https://img.shields.io/badge/telegram-@faceplugin-blue.svg?logo=telegram " alt="faceplugin.com"></a>&emsp;
+<a target="_blank" href="https://wa.me/+14422295661"><img src="https://img.shields.io/badge/whatsapp-faceplugin-blue.svg?logo=whatsapp " alt="faceplugin.com">
+</div>
+  
 </details>
 
 <details open>
