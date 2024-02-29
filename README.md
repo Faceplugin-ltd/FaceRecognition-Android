@@ -10,10 +10,9 @@
 <img src="https://img.shields.io/github/issues-pr/genderev/assassin" alt="pr"/>
 </div>
 
-<details open>
-<summary><h2>Install License</h2></summary>
+<h2>Install License</h2>
   
-The code below shows how to use the license: https://github.com/Faceplugin-ltd/FacePlugin-FaceSDK-Android/blob/a33ee712da8e8bdf1572459bee417e6c83789ad1/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
+The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android/blob/370ecadae564788eaa84f288e342da742fde0c1a/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
 
 If you want to get license, please contact us
 
@@ -22,20 +21,15 @@ If you want to get license, please contact us
 <a target="_blank" href="https://t.me/faceplugin"><img src="https://img.shields.io/badge/telegram-@faceplugin-blue.svg?logo=telegram " alt="faceplugin.com"></a>&emsp;
 <a target="_blank" href="https://wa.me/+14422295661"><img src="https://img.shields.io/badge/whatsapp-faceplugin-blue.svg?logo=whatsapp " alt="faceplugin.com">
 </div>
-  
-</details>
 
-<details open>
-<summary><h2>Table of Contents</h2></summary>
 
-* **[Face Detection](#face-detection)**
-* **[Face Landmark Extraction](#face-landmark-extraction)**
-* **[Face Liveness Detection](#face-expression-detection)**
-* **[Face Expression Detection](#face-expression-detection)**
-* **[Face Pose Estimation](#face-pose-estimation)**
-* **[Eye Closeness Detection](#eye-closeness-detection)**
-* **[Gender Detection](#gender-detection)**
-* **[Age Detection](#age-detection)**
-* **[Face Feature Embedding](#face-recognition)**
+<h2>List of our Products</h2>
 
-</details>
+* **[FaceRecognition-LivenessDetection-Android](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android)**
+* **[FaceRecognition-LivenessDetection-iOS](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-iOS)**
+* **[FaceRecognition-LivenessDetection-Javascript](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Javascript)**
+* **[FaceLivenessDetection-Docker](https://github.com/Faceplugin-ltd/FaceLivenessDetection-Docker)**
+* **[FaceRecognition-Python](https://github.com/Faceplugin-ltd/FaceRecognition-Python)**
+* **[FaceRecognition-LivenessDetection-React](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-React)**
+* **[FaceRecognition-LivenessDetection-Vue](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Vue)**
+
