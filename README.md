@@ -30,11 +30,8 @@ If you want to get license and update models, please contact us
 <h2>Screenshots</h2>
 <div align="left">
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/5c4dc73b-013d-4b6c-af9f-e4bf4a32c43a" width=200/>
-<img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/682cba4e-0511-4040-b66c-66ed28c249b9" width=200/>
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/92f4113e-16b0-43e2-b6af-d5fa3c4e56c9" width=200/>
-<img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/9ddc0b93-49b6-4e95-a851-7728eaf9ee9d" width=200/>
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/fc5f985c-cf40-41d7-9ff9-a5aab5898a33" width=200/>
-<img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/2105a6ee-fef9-46b5-9129-3429735e3cf8" width=200/>
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/87129c77-70d3-4226-9630-b8b60a1cc951" width=200/>
 </div>
 
