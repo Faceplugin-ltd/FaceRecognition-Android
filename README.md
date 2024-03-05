@@ -10,13 +10,6 @@
 <img src="https://img.shields.io/github/issues-pr/genderev/assassin" alt="pr"/>
 </div>
 
-<h2>Install License</h2>
-  
-The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android/blob/370ecadae564788eaa84f288e342da742fde0c1a/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
-
-If you want to get license and update models, please contact us
-
-
 <h2>Screenshots</h2>
 <div align="left">
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/5c4dc73b-013d-4b6c-af9f-e4bf4a32c43a" width=200/>
@@ -25,6 +18,11 @@ If you want to get license and update models, please contact us
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceLivenessDetection-Android/assets/160750757/87129c77-70d3-4226-9630-b8b60a1cc951" width=200/>
 </div>
 
+<h2>Install License</h2>
+  
+The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android/blob/370ecadae564788eaa84f288e342da742fde0c1a/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
+
+If you want to get license and update models, please contact us
 
 <h2>List of our Products</h2>
 
