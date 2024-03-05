@@ -24,7 +24,7 @@ Experience the epitome of speed and fairness with our **unbiased** face recognit
   
 The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android/blob/370ecadae564788eaa84f288e342da742fde0c1a/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
 
-If you want to get license and update models, please contact us
+If you want to get license, please contact us
 
 <h2>List of our Products</h2>
 
