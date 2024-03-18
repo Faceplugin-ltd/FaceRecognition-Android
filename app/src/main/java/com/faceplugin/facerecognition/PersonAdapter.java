@@ -13,10 +13,12 @@ import java.util.ArrayList;
 public class PersonAdapter extends ArrayAdapter<Person> {
 
     DBManager dbManager;
-    public PersonAdapter(Context context, ArrayList<Person> personList) {
+    TextView txtEnrolledFace;
+    public PersonAdapter(Context context, ArrayList<Person> personList, TextView textEnrolledFace) {
         super(context, 0, personList);
 
         dbManager = new DBManager(context);
+        txtEnrolledFace = textEnrolledFace;
     }
 
     @Override
@@ -34,6 +36,11 @@ public class PersonAdapter extends ArrayAdapter<Person> {
             public void onClick(View view) {
                 dbManager.deletePerson(DBManager.personList.get(position).name);
                 notifyDataSetChanged();
+                if (DBManager.personList.size() == 0){
+                    txtEnrolledFace.setVisibility(View.INVISIBLE);
+                } else {
+                    txtEnrolledFace.setVisibility(View.VISIBLE);
+                }
             }
         });
 
