@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var dbManager: DBManager
     private lateinit var textWarning: TextView
+    private lateinit var textEnrolledFace: TextView
     private lateinit var personAdapter: PersonAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         textWarning = findViewById<TextView>(R.id.textWarning)
+        textEnrolledFace = findViewById<TextView>(R.id.tv_enrolledface)
+        textEnrolledFace.setVisibility(View.INVISIBLE)
+
 
 
         var ret = FaceSDK.setActivation(
@@ -60,36 +64,36 @@ class MainActivity : AppCompatActivity() {
         dbManager = DBManager(this)
         dbManager.loadPerson()
 
-        personAdapter = PersonAdapter(this, DBManager.personList)
+        personAdapter = PersonAdapter(this, DBManager.personList, this.textEnrolledFace)
         val listView: ListView = findViewById<View>(R.id.listPerson) as ListView
         listView.setAdapter(personAdapter)
 
-        findViewById<Button>(R.id.buttonEnroll).setOnClickListener {
+        findViewById<LinearLayout>(R.id.ll_enroll).setOnClickListener {
             val intent = Intent()
             intent.setType("image/*")
             intent.setAction(Intent.ACTION_PICK)
             startActivityForResult(Intent.createChooser(intent, getString(R.string.select_picture)), SELECT_PHOTO_REQUEST_CODE)
         }
 
-        findViewById<Button>(R.id.buttonIdentify).setOnClickListener {
+        findViewById<LinearLayout>(R.id.ll_identify).setOnClickListener {
             startActivity(Intent(this, CameraActivity::class.java))
         }
 
-        findViewById<Button>(R.id.buttonCapture).setOnClickListener {
+        findViewById<LinearLayout>(R.id.ll_capture).setOnClickListener {
             startActivity(Intent(this, CaptureActivity::class.java))
         }
 
-        findViewById<Button>(R.id.buttonAttribute).setOnClickListener {
+        findViewById<LinearLayout>(R.id.ll_attribute).setOnClickListener {
             val intent = Intent()
             intent.setType("image/*")
             intent.setAction(Intent.ACTION_PICK)
             startActivityForResult(Intent.createChooser(intent, getString(R.string.select_picture)), SELECT_ATTRIBUTE_REQUEST_CODE)
         }
 
-        findViewById<Button>(R.id.buttonSettings).setOnClickListener {
+        findViewById<LinearLayout>(R.id.ll_settings).setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
         }
-        findViewById<Button>(R.id.buttonAbout).setOnClickListener {
+        findViewById<LinearLayout>(R.id.ll_about).setOnClickListener {
             startActivity(Intent(this, AboutActivity::class.java))
         }
 
@@ -104,6 +108,11 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
 
         personAdapter.notifyDataSetChanged()
+        if (personAdapter.count == 0){
+            textEnrolledFace.setVisibility(View.INVISIBLE)
+        } else {
+            textEnrolledFace.setVisibility(View.VISIBLE)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -122,6 +131,11 @@ class MainActivity : AppCompatActivity() {
 
                     dbManager.insertPerson("Person" + Random.nextInt(10000, 20000), faceImage, templates)
                     personAdapter.notifyDataSetChanged()
+                    if (personAdapter.count == 0){
+                        textEnrolledFace.setVisibility(View.INVISIBLE)
+                    } else {
+                        textEnrolledFace.setVisibility(View.VISIBLE)
+                    }
                     Toast.makeText(this, getString(R.string.person_enrolled), Toast.LENGTH_SHORT).show()
                 }
             } catch (e: java.lang.Exception) {

@@ -63,5 +63,7 @@
     <color name="md_theme_dark_scrim">#000000</color>
 
     <color name="background1">#252525</color>
-    <color name="pink_700">#cf34eb</color>
+    <color name="pink_700">#63317B</color>
+    <color name="pink_touch">#BF41E3</color>
+
 </resources>
