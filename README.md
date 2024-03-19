@@ -3,7 +3,7 @@
 </div>
 
 # Face Recognition Liveness Detection (Anti Spoofing) SDK For Android
-Experience the epitome of speed and fairness with our **unbiased** face recognitio n model, coupled with an advanced **liveness detection** system that effectively safeguards against **printed photos, video replay, 3D masks, and deepfake threats**, ensuring top-tier security.
+Experience the epitome of speed and fairness with our **unbiased** face recognition model, coupled with an advanced **liveness detection** system that effectively safeguards against **printed photos, video replay, 3D masks, and deepfake threats**, ensuring top-tier security.
 
 <div align="left">
 <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
