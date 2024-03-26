@@ -30,4 +30,11 @@
 
         <item name="android:statusBarColor">?attr/colorSurface</item>
     </style>
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+    </style>
+
 </resources>
