@@ -2,7 +2,7 @@
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceRecognition-Javascript/assets/160750757/657130a9-50f2-486d-b6d5-b78bcec5e6e2.png" width=200/>
 </div>
 
-# Face Recognition Liveness Detection (Anti Spoofing) SDK For Android
+# Face Recognition Face Liveness Detection (Face Anti Spoofing) SDK For Android
 Experience the epitome of speed and fairness with our **unbiased** face recognition model, coupled with an advanced **liveness detection** system that effectively safeguards against **printed photos, video replay, 3D masks, and deepfake threats**, ensuring top-tier security.
 
 <div align="left">
