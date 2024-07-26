@@ -3,7 +3,7 @@
 </div>
 
 # On-Premise Face Recognition Face Liveness Detection (Face Anti Spoofing) SDK For Android
-Experience the epitome of speed and fairness with our **unbiased** face recognition model, coupled with an advanced **liveness detection** system that effectively safeguards against **printed photos, video replay, 3D masks, and deepfake threats**, ensuring top-tier security. <br>This is **on-premise** SDK which means everything is process on your phone and **NO** data leaves the device 
+Experience the epitome of speed and fairness with our  face recognition model **Top-ranked on NIST FRVT**, coupled with an advanced **iBeta level 2 liveness detection** engine that effectively safeguards against **printed photos, video replay, 3D masks, and deepfake threats**, ensuring top-tier security. <br>This is **on-premise** SDK which means everything is processed on your phone and **NO** data leaves the device 
 <br></br>
 
 ## Try this APP on Google Play
