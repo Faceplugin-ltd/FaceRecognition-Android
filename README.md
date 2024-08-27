@@ -38,7 +38,7 @@ Experience the epitome of speed and fairness with our  face recognition model **
   
 The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android/blob/370ecadae564788eaa84f288e342da742fde0c1a/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
 
-If you want to get license, please contact us
+Please contact us to get the license.
 
 <h2>List of our Products</h2>
 
