@@ -2,7 +2,7 @@
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceRecognition-Javascript/assets/160750757/657130a9-50f2-486d-b6d5-b78bcec5e6e2.png" width=200/>
 </div>
 
-# On-Premise Face Recognition Face Liveness Detection (Face Anti Spoofing) SDK For Android
+# Face Recognition SDK Android with 3D passive liveness Detection - Fully On Premise
 Experience the epitome of speed and fairness with our  face recognition model **Top-ranked on NIST FRVT**, coupled with an advanced **iBeta level 2 liveness detection** engine that effectively safeguards against **printed photos, video replay, 3D masks, and deepfake threats**, ensuring top-tier security. <br>This is **on-premise** SDK which means everything is processed on your phone and **NO** data leaves the device 
 <br></br>
 
