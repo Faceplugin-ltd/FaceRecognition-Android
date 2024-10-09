@@ -89,6 +89,43 @@ public static native float similarityCalculation(byte[] var0, byte[] var1);
   |-4|Activation Failed|
   |-5|SDK Failed|
 
+<a name="classes"><h3>Classes</h3></a>
+<h4>FaceResult</h4>
+
+  | Type      | Name      | Description |
+  |------------------|------------------|------------------|
+  | Rect         | rect        | Bounding box for face   |
+  | int          | liveness        | Liveness status: 0 for spoof, 1 for real, less than 0 for unknown    |
+  | int          | gender        | Gender classification result   |
+  | int          | mask        | Mask presence: 0 for no mask, 1 for mask    |
+  | int          | age        | Age estimation result    |
+  | float          | yaw        |  Yaw angle: -45 to 45 degrees  |
+  | float          | roll        | Roll angle: -45 to 45 degrees    |
+  | float          | pitch        | Pitch angle: -45 to 45 degrees    |
+  | byte[]          | feature        |  2056-byte facial feature data   |
+  | byte[]          | faceData        | Encrypted facial data     |
+  | int          | orient        | Face orientation: 1 for no rotation, 2 for 90° rotation, 3 for 270° rotation, 4 for 180° rotation     |
+  | int          | faceId        | Face ID in the tracking face mode    |
+
+```java
+public class FaceResult {
+    public Rect rect;
+    public int liveness;
+    public int gender;
+    public int mask;
+    public int age;
+    public float yaw;
+    public float roll;
+    public float pitch;
+    public byte[] feature;
+    public byte[] faceData;
+    public int    orient;
+    public int faceId;
+    
+    public FaceResult() {
+    }
+}
+```
 </details>
 
 ## List of our Products
