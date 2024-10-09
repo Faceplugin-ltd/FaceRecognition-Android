@@ -45,7 +45,7 @@ Please contact us to get the license.
 ## Documentation
 <details>
 
-<a name="face-detection"><h3>APIs</h3></a>
+<a name="api"><h3>APIs</h3></a>
 <h4> Activate SDK using license </h4>
 
 ```java
@@ -77,7 +77,18 @@ public static native byte[] templateExtraction(Bitmap var0, FaceBox var1);
 ```java
 public static native float similarityCalculation(byte[] var0, byte[] var1);
 ```
+
+<a name="sdk-code"><h3>SDK Codes</h3></a>
   
+  | Code | Status |
+  |:------:|------|
+  |0|Activate SDK successfully|
+  |-1|Invalid License Key |
+  |-2|Invalid AppID |
+  |-3|Expired License Key|
+  |-4|Activation Failed|
+  |-5|SDK Failed|
+
 </details>
 
 ## List of our Products
