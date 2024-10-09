@@ -45,11 +45,37 @@ Please contact us to get the license.
 ## Documentation
 <details>
 
-<a name="face-detection"></a>
-### Activate SDK
-This function can be used to activate SDK using license
+<a name="face-detection"><h3>APIs</h3></a>
+<h4> Activate SDK using license </h4>
+
 ```java
 public static native int setActivation(java.lang.String s);
+```
+
+<h4> Init model for face recognition and liveness detection </h4>
+
+```java
+public static native int init(AssetManager var0);
+```
+<h4> Convert camera frame in YUV to Bitmap </h4>
+
+```java
+public static native Bitmap yuv2Bitmap(byte[] var0, int var1, int var2, int var3);
+```
+<h4> Run face recognition and liveness detection </h4>
+
+```java
+public static native List<FaceBox> faceDetection(Bitmap var0, FaceDetectionParam var1);
+```
+<h4> Extract feature vector for the enrollment </h4>
+
+```java
+public static native byte[] templateExtraction(Bitmap var0, FaceBox var1);
+```
+<h4> Calculate cosine similarity for the matching </h4>
+
+```java
+public static native float similarityCalculation(byte[] var0, byte[] var1);
 ```
   
 </details>
