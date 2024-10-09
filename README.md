@@ -42,6 +42,18 @@ The code below shows how to use the license: https://github.com/Faceplugin-ltd/F
 
 Please contact us to get the license.
 
+## Documentation
+<details>
+
+<a name="face-detection"></a>
+### Activate SDK
+This function can be used to activate SDK using license
+```java
+public static native int setActivation(java.lang.String s);
+```
+  
+</details>
+
 ## List of our Products
 
 * **[FaceRecognition-LivenessDetection-Android](https://github.com/Faceplugin-ltd/FaceRecognition-Android)**
