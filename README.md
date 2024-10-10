@@ -45,6 +45,22 @@ Please contact us to get the license.
 ## Documentation
 <details>
 
+<a name="setup"><h3>Setup</h3></a>
+Copy the SDK (`libfacesdk` folder) to the `root` folder in your project.
+
+Add SDK to the project in `settings.gradle`
+
+```
+rootProject.name = "YourProjectName"
+include ':app'
+include ':libfacesdk'
+```
+Add dependency to your build.gradle
+
+```
+implementation project(path: ':libfacesdk')
+```
+
 <a name="api"><h3>APIs</h3></a>
 <h4> Activate SDK using license </h4>
 
@@ -127,6 +143,8 @@ public class FaceResult {
 }
 ```
 </details>
+
+Here's our official [document](https://docs.faceplugin.com/)
 
 ## List of our Products
 
