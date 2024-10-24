@@ -2,6 +2,10 @@
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceRecognition-Javascript/assets/160750757/657130a9-50f2-486d-b6d5-b78bcec5e6e2.png" width=200/>
 </div>
 
+#### Hugging Face - [Here](https://huggingface.co/spaces/FacePlugin-Ltd/FaceRecognition-LivenessDetection-SDK) <span> <img src="https://github.com/user-attachments/assets/303cda2b-a195-42c5-b481-6b2b796d2910" style="margin: 4px; width: 36px; height: 20px"> <span/>
+#### Open Source FaceSDK- [Here](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) <span> <img src="https://github.com/user-attachments/assets/303cda2b-a195-42c5-b481-6b2b796d2910" style="margin: 4px; width: 36px; height: 20px"> <span/>
+#### Documentation- [Here](https://docs.faceplugin.com)
+
 # Face Recognition SDK Android with 3D Passive Liveness Detection - Fully On Premise
 ## Overview
 Explore our `face recognition SDK` Top-ranked on NIST FRVT , coupled with an advanced `iBeta level 2 liveness detection` engine that effectively safeguards against **printed photos, video replay, 3D masks, and deepfake threats**, ensuring top-tier security.
