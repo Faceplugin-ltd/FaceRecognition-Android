@@ -12,6 +12,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
+        maven { url 'https://www.jitpack.io'}
     }
 }
 rootProject.name = "FaceRecognition"
