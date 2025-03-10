@@ -4,7 +4,7 @@
 
 #### Hugging Face - [Here](https://huggingface.co/spaces/FacePlugin-Ltd/FaceRecognition-LivenessDetection-SDK) <span> <img src="https://github.com/user-attachments/assets/303cda2b-a195-42c5-b481-6b2b796d2910" style="margin: 4px; width: 36px; height: 20px"> <span/>
 #### Open Source FaceSDK- [Here](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) <span> <img src="https://github.com/user-attachments/assets/303cda2b-a195-42c5-b481-6b2b796d2910" style="margin: 4px; width: 36px; height: 20px"> <span/>
-#### Documentation- [Here](https://docs.faceplugin.com)
+#### Documentation- [Here](https://doc.faceplugin.com)
 
 # Face Recognition SDK Android with 3D Passive Liveness Detection - Fully On Premise
 ## Overview
