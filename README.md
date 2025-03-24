@@ -148,7 +148,7 @@ public class FaceResult {
 ```
 </details>
 
-Here's our official [document](https://docs.faceplugin.com/)
+Here's our official [document](https://doc.faceplugin.com/)
 
 ## List of our Products
 
