@@ -44,7 +44,7 @@ Explore `face recognition SDK` from [Faceplugin](https://faceplugin.com/) Top-ra
   
 The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-Android/blob/370ecadae564788eaa84f288e342da742fde0c1a/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
 
-Please contact us to get the license.
+Please [contact us](#contact) to get the license.
 
 ## Documentation
 <details>
