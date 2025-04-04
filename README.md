@@ -3,7 +3,6 @@
 </div>
 
 #### Hugging Face - [Here](https://huggingface.co/spaces/FacePlugin-Ltd/FaceRecognition-LivenessDetection-SDK) <span> <img src="https://github.com/user-attachments/assets/303cda2b-a195-42c5-b481-6b2b796d2910" style="margin: 4px; width: 36px; height: 20px"> <span/>
-#### Open Source FaceSDK- [Here](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) <span> <img src="https://github.com/user-attachments/assets/303cda2b-a195-42c5-b481-6b2b796d2910" style="margin: 4px; width: 36px; height: 20px"> <span/>
 #### Documentation- [Here](https://doc.faceplugin.com)
 
 # Face Recognition SDK Android with 3D Passive Liveness Detection - Fully On Premise
@@ -40,8 +39,7 @@ Explore `face recognition SDK` from [Faceplugin](https://faceplugin.com/) Top-ra
 </a>
 </div>
 
-## Install License
-  
+## Install License  
 The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-Android/blob/370ecadae564788eaa84f288e342da742fde0c1a/app/src/main/java/com/faceplugin/facerecognition/MainActivity.kt#L30-L45
 
 Please [contact us](#contact) to get the license.
