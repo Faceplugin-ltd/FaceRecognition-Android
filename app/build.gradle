@@ -51,8 +51,7 @@ dependencies {
     implementation 'androidx.camera:camera-view:1.0.0-alpha19'
 
     implementation project(path: ':libfacesdk')
-
-    implementation 'io.fotoapparat:fotoapparat:2.7.0'
+    implementation project(path: ':libfotoapparat')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
