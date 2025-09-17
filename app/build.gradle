@@ -25,6 +25,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {
@@ -50,7 +51,7 @@ dependencies {
     implementation "androidx.camera:camera-lifecycle:1.0.0-beta12"
     implementation 'androidx.camera:camera-view:1.0.0-alpha19'
 
-    implementation project(path: ':libfacesdk')
+    implementation files('libs/facesdk.aar')
     implementation project(path: ':libfotoapparat')
 
     testImplementation 'junit:junit:4.13.2'
