@@ -1,0 +1,10 @@
+def aar = file("facerecognitionsdk.aar")
+if (!aar.exists()) {
+    throw new GradleException(
+        "Missing libfacesdk/facerecognitionsdk.aar.\n" +
+        "From FaceRecognitionSDK-Android-SDK run:\n" +
+        "  python scripts/export.py --rebuild"
+    )
+}
+configurations.maybeCreate("default")
+artifacts.add("default", aar)

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Face Recognition"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/lytButtons1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="182dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle"
+        tools:layout_editor_absoluteX="7dp">
+
+        <LinearLayout
+            android:id="@+id/ll_enroll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edge"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/iv_enroll"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="0dp"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/enroll" />
+
+            <TextView
+                android:id="@+id/tv_enroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-15dp"
+                android:text="ENROLL"
+                android:textColor="@color/md_theme_light_onPrimary"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_identify"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edge"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_identify"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="0dp"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/identify" />
+
+            <TextView
+                android:id="@+id/tv_identify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-15dp"
+                android:text="IDENTIFY"
+                android:textColor="@color/md_theme_light_onPrimary"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_capture"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edge"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_capture"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="0dp"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/capture" />
+
+            <TextView
+                android:id="@+id/tv_capture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-15dp"
+                android:text="CAPTURE"
+                android:textColor="@color/md_theme_light_onPrimary"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytButtons2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/lytButtons1"
+        android:layout_marginTop="172dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:id="@+id/ll_attribute"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edge"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_attribute"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="0dp"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/attributr" />
+
+            <TextView
+                android:id="@+id/tv_attribute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-15dp"
+                android:text="ATTRIBUTE"
+                android:textColor="@color/md_theme_light_onPrimary"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_settings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edge"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="0dp"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/settings" />
+
+            <TextView
+                android:id="@+id/tv_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-15dp"
+                android:text="SETTINGS"
+                android:textColor="@color/md_theme_light_onPrimary"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_about"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edge"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_about"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="0dp"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/information" />
+
+            <TextView
+                android:id="@+id/tv_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-15dp"
+                android:text="ABOUT"
+                android:textColor="@color/md_theme_light_onPrimary"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageBrand"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            app:srcCompat="@drawable/ic_faceplugin"-->
+<!--            >-->
+<!--        </ImageView>-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_enrolledface"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="Enrolled Face"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/lytButtons2">
+
+    </TextView>
+
+    <ListView
+        android:id="@+id/listPerson"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/lytBrand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_enrolledface" />
+
+    <TextView
+        android:id="@+id/textWarning"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text=""
+        android:background="@color/md_theme_light_error"
+        android:visibility="gone"
+        android:textSize="14dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/listPerson"
+        app:layout_constraintStart_toStartOf="@+id/listPerson"
+        app:layout_constraintTop_toTopOf="@+id/listPerson"
+        app:layout_constraintBottom_toBottomOf="@+id/listPerson"
+        >
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
