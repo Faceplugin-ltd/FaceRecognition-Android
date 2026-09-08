@@ -1,0 +1,57 @@
+# FaceRecognitionSDK-Android-App (customer demo)
+# Push: app source, Gradle, README, screenshots, libfacesdk placeholders.
+# Do not push: AAR / natives (Drive), secrets, build output, kit-only scripts.
+
+# --- IDE / local ---
+.gradle/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+local.properties
+captures/
+
+# --- Build outputs ---
+**/build/
+.cxx/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# --- Secrets / license ---
+keystore.properties
+*.jks
+*.keystore
+license.txt
+license.lic
+license.dat
+activation.dat
+FP1.*
+*.fp1
+
+# --- Runtime (download facerecognitionsdk.aar into libfacesdk/) ---
+*.aar
+!gradle/wrapper/gradle-wrapper.jar
+libfacesdk/**/*.aar
+libfacesdk/**/*.so
+libfacesdk/**/*.fpk
+libfacesdk/**/jniLibs/
+!libfacesdk/README.md
+!libfacesdk/build.gradle
+
+# --- Org / kit-only (not for customer GitHub) ---
+/scripts/
+/upload-library.py
+/upload_library.py
+/lib_drive.yaml
+/deploy.py
+__pycache__/
+*.pyc
+*.pyo
+.source_libraries/
+source_libraries/
+build_libraries/
+.patch_runtime_state.json
+**/.patch_runtime_state.json
