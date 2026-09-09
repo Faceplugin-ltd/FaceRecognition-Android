@@ -164,7 +164,7 @@ Please [contact us](#contact) to get a license for **your own app**.
 
 ### License capabilities
 
-After activation, `FaceRecognitionSDK.getLicenseStatus()` (and `LicenseStatus.current()` in the demo kit) reports what the key unlocks from the `license_level` field (0 / 1 / 2):
+After activation, `FaceRecognitionSDK.getLicenseStatus()` (and `LicenseStatus.current()` in the demo kit) reports what the key unlocks:
 
 - **Recognition only** — Enroll / Identify / Attribute
 - **Liveness only** — Capture
