@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="FacePlugin" src="https://avatars.githubusercontent.com/u/160751046?s=200&v=4" width="200"/>
+<img alt="FacePlugin" src="https://raw.githubusercontent.com/Faceplugin-ltd/faceplugin-assets/main/brand/favicon.png" width="200"/>
 </div>
 
 #### 🌐 Company Site - [Here](https://faceplugin.com)
