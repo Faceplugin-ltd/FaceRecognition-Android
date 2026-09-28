@@ -5,7 +5,6 @@
 #### 🌐 Company Site - [Here](https://faceplugin.com)
 #### 🤗 Hugging Face - [Here](https://huggingface.co/FacePlugin-Ltd)
 #### 🛟 Help Center - [Here](https://doc.faceplugin.com)
-#### ✈️ Telegram - [@facepluginSDK](https://t.me/facepluginSDK)
 #### 🐳 Docker Hub - [Here](https://hub.docker.com/u/faceplugin)
 
 # FacePlugin Face Recognition SDK — Android (Fully On-Premise)
