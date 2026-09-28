@@ -23,12 +23,13 @@
 
         <ImageView
             android:id="@+id/imgAboutLogo"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/company_name"
-            android:src="@drawable/ic_faceplugin" />
+            android:scaleType="fitCenter"
+            android:src="@drawable/fp_logo" />
 
         <TextView
             android:layout_width="match_parent"
