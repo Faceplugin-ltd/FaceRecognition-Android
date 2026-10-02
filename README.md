@@ -247,7 +247,7 @@ Call **once per process**, on a **background** thread: `setActivation` → `init
 
 ```kotlin
 Thread {
-    var ret = FaceRecognitionSDK.setActivation(context, "FP1.…")
+    var ret = FaceRecognitionSDK.setActivation(context, "YOUR_LICENSE_KEY")
     if (ret == FaceRecognitionSDK.SDK_SUCCESS) {
         ret = FaceRecognitionSDK.init(context)
     }
@@ -280,7 +280,7 @@ Use **`FaceRecognitionClient.get(context)`** as the only entry. Do not mix raw `
 
 ```kotlin
 val client = FaceRecognitionClient.get(this)
-client.activate("FP1.…") { code ->
+client.activate("YOUR_LICENSE_KEY") { code ->
     runOnUiThread {
         if (code == FaceRecognitionSDK.SDK_SUCCESS) {
             client.loadDatabase()
